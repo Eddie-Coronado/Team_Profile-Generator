@@ -1,0 +1,45 @@
+.card-container {
+flex: auto;
+display: flex;
+flex-wrap: wrap;
+align-items: flex-start;
+}
+
+.card {
+background-color: rgb(153, 189, 255);
+border-style: solid;
+border-width: 1px;
+border-radius: 10px;
+padding: 10px;
+flex: 0 0 300px;
+box-shadow: 5px 5px 5px 5px #000000;
+margin: 30px;
+}
+
+.card-title {
+background-color: white;
+text-align: center;
+padding: 5px;
+outline: auto;
+margin: auto;
+}
+
+p {
+text-align: center;
+padding-top: 10px;
+font-size: 1.5rem;
+font-weight: bolder;
+}
+
+.card-text {
+padding: 0;
+background-color: white;
+
+}
+
+ul li {
+list-style-type: none;
+margin: 0;
+padding: 2px;
+outline: auto;
+}
