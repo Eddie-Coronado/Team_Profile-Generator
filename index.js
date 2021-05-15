@@ -1,7 +1,6 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
 
-const Employee = require('./lib/Employee');
 const Engineer = require('./lib/Engineer');
 const Intern = require('./lib/Intern');
 const Manager = require('./lib/Manager');
@@ -50,6 +49,7 @@ function createManager() {
     })
 }
 
+// This is the prompt and action based on selection for adding more team memebers
 function generateTeam() {
     inquirer.prompt([
         {
@@ -197,7 +197,7 @@ function generateHTML() {
 <body>
 
 <div>
-    <h1 style='background-color:rgb(255, 51, 51); color: white; padding:15px; text-align: center;'>My Team</h1>
+    <h1>My Team</h1>
 </div>
     <div>
     ${template}        

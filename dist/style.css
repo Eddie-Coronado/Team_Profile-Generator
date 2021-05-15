@@ -1,3 +1,11 @@
+h1 {
+background-color:rgb(248, 95, 95); 
+color: white; 
+padding:30px;
+font-weight: bolder;
+text-align: center;
+}
+
 .card-container {
 flex: auto;
 display: flex;
